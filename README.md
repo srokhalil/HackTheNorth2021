@@ -24,3 +24,32 @@ gcloud app deploy
 * [Sharon Xiao](https://github.com/sharxiao)
 
  
+### Dev Notes
+this runs on google clound but you could run locally by commenting out the:
+
+[*main.py*](./main.py#L12-L15)
+```
+@app.before_first_request
+def init_db():
+    db.create_tables()
+```
+and [*python.py*](./python/app.py#L13-L14)
+```
+if body.get(CONTRACT.get("PERSONAL")):
+            add_user(body.get(CONTRACT.get("PERSONAL")))
+```
+
+Then install Node modules for React (Front End) and pip files for Flask (Back End):
+```
+npm i
+# activate venv
+python3 -m venv .
+source ./bin/activate
+pip3 install -r requirements.txt
+```
+
+Then run Flask server:
+```
+# FLASK_DEBUG 1 allows server to be redeployed on updates to files
+env FLASK_APP=main.py FLASK_DEBUG=1 flask run
+```
