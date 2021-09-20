@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.App {
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    display: flex;
+}
+.image {
+    margin-top: 265px;
+    margin-right: 179px;
+    margin-left: auto;
+}
+
+.start-gradient {
+    background-image: url('./assets/start_gradient.svg');
+}
+.question-gradient {
+    background-image: url('./assets/question_gradient.svg');
+}
+
+/* Buttons */
+.button-box {
+    margin-left: auto;
+}
+.next {
+    width: fit-content;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: 120px;
+    width: 323px;
+    height: 91px;
+    background: #DAF4FF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.back {
+    width: fit-content;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 323px;
+    height: 91px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.start-button {
+    width: 323px;
+    height: 91px;
+    background: #001972;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 254px;
+}

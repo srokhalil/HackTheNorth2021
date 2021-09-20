@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.welcome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DAF4FF;
+    margin:0;
+    margin-top: 365px;
+}
+
+.helper {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #001972;
+    font-family: 'Inter', sans-serif;
+}
+
+.white {
+    color: white;
+    font-weight: 600;
+}
